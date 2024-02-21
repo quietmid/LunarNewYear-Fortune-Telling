@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='en'>
+		<head>
+			<meta charset ="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Zodiac Fortune Teller</title>
+
+			<link rel="stylesheet" href="normalize.css">
+			<link rel="stylesheet" href="style.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap" rel="stylesheet">
+		</head>
+		<body>
+			<h1>Here are the things that you should do in 2024</h1>
+			<p id="tip">Go see a chiropractor, we all know your back ain't the same anymore.</p>
+			<button id="NextButton" onclick="nextTipAndRename()">Next</button>
+		
+			<script>
+				// Array of tips for 2024
+				var tips = [
+					"Go get that full body check up that you meant to do two years ago",
+					"Don't turn too fast, you might throw out your neck or your back.",
+					"Don't start your day with toxicity, start it by giving away your toxicity to others",
+					"Don't be afarid of day drinking. Don't let work dominate your life!",
+					"Don't end this year on bad terms with anyone, Come and Apologize to me",
+					"Don't check the weather, just go outside and deal with it",
+					"Don't let anybody else ruin your day, Ruin it yourself",
+					"Close your eyes while driving, to test your skill level.",
+					"You Only Live Once.",
+					"Remember that the Marie Kondo method on decluttering stuff, doesn't only work on objects. It also works on people too, like yourself ;)",
+					"you are too young to be old and too old to be young"
+				];
+		
+				var currentTipIndex = 0;
+				var tipElement = document.getElementById("tip");
+				var nextButton = document.getElementById("NextButton");
+
+				function nextTip() {
+					currentTipIndex++;
+					if (currentTipIndex >= tips.length) 
+					{
+                	var newButton = document.createElement("button");
+             		newButton.textContent = "Real Fortunate";
+                	newButton.onclick = function() 
+					{
+                    	window.location.href = "fortunate2024.html";
+                	};
+                document.body.appendChild(newButton);
+				// nextButton.textContent = buttonPhrases[currentButIndex++];
+            } else {
+                tipElement.textContent = tips[currentTipIndex];
+            }
+        }
+				var buttonPhrases = [
+					"Next",
+					"Again?",
+					"Not this one",
+					"Can you not tell?",
+					"Don't you dare",
+					"How dare you!",
+					"ohhhhh you are pushing it",
+					"why are you so childish",
+					"you can't beat me",
+					"I give up"
+				];
+
+				var currentButIndex = 0;
+
+				function renameButton(button) {
+					if (currentTipIndex >= tips.length)
+					{	
+						nextButton.textContent = buttonPhrases[currentButIndex];
+						currentButIndex++;
+						if (currentButIndex >= buttonPhrases.length)
+						{
+							currentButIndex = 0;
+						}
+					}
+				}
+
+				function nextTipAndRename(button){
+					nextTip();
+					renameButton(button);
+				}
+		</script>
+		</body>
+</html>

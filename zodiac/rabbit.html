@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+		<head>
+			<meta charset ="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Zodiac Fortune Teller</title>
+
+			<link rel="stylesheet" href="../normalize.css">
+			<link rel="stylesheet" href="../style.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap" rel="stylesheet">
+		</head>
+		<body>
+			<h1>Eh, what's up, Doc?</h1>
+			<img src="../png/bugs bunny.png" alt="rabbit">
+			<h3> Here is your forecast for the Year of Wood Dragon</h3>
+			<p>
+				After your astrological year of 2023, you may be feeling rather exhausted and confused about what next steps to take in 2024. Any changes that may have been delayed may have to be reviewed; uncertainty remain on the cards, be it for personal or professional reasons. If you remain calm and mentally strong, such decisions and any challenges will be easier to overcome. Stay determined with your goals and do not give in to external forces, which may try to send your plans off course. Breakthroughs will come by staying alert to your surroundings, and guidance that will be available.
+			</p>
+			<p>Your Lucky Colors: Red and Green</p>
+			<button onclick="redirectToResultPage()">Click to Go Back!</button>
+			<div id="fortune2024" style="display: none;">
+			</div>
+		<script>
+			var fortunePageURL = "../fortunate2024.html"
+			function redirectToResultPage() {
+				window.location.href = fortunePageURL;
+			}
+		</script>
+		</body>
+</html>

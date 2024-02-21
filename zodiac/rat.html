@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+		<head>
+			<meta charset ="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Zodiac Fortune Teller</title>
+
+			<link rel="stylesheet" href="../normalize.css">
+			<link rel="stylesheet" href="../style.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap" rel="stylesheet">
+		</head>
+		<body>
+			<h1>"Mitä?"</h1>
+			<img src="../png/pikachu.jpeg" alt="Rat">
+			<h3> Here is your forecast for the Year of Wood Dragon</h3>
+			<p>
+				There will be opportunities for personal growth thanks to two lucky stars in your chart, indicating greater wealth generating potential with maybe a second income source. This helps you be in a stronger position to fulfil dreams, which in 2023 may have been stalled for reason out of your control. You should enjoy a stronger sense of self and freedom to manage your schedule to your benefit due to greater autonomy.</p>
+			<p>
+				Although luck can fluctuate, with good time management you will be able to stabilise. Be willing to work hard and be consistent to counter your weaker months of March, June and July. Think long and hard before taking action or making any major decisions. Be careful of personal safety as you are prone to accidents and injuries.
+			</p>
+			<p>Your Lucky Colors: Yellow and Brown</p>
+
+			<button onclick="redirectToResultPage()">Click to Go Back!</button>
+			<div id="fortune2024" style="display: none;">
+			</div>
+		<script>
+			var fortunePageURL = "../fortunate2024.html"
+			function redirectToResultPage() {
+				window.location.href = fortunePageURL;
+			}
+		</script>
+		</body>
+</html>
