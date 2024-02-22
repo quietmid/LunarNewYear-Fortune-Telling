@@ -1,5 +1,5 @@
 <h1>Fortune Telling Website for Lunar New Year Party</h1>
-<h3>This is a personal project</h3>
+<h3>This is a personal project</h3> <h5>so please excuse some of the languages and pictures that I used</h5>
 
 <p>The goal is to include more a bit more of Asian culture in the Lunar Party that I am hosting with a couple friends. 
   Besides food, I thought that fortune telling has always been a really big thing in Asia, especially during new year.
