@@ -1,0 +1,11 @@
+<h1>Fortune Telling Website for Lunar New Year Party</h1>
+<h3>This is a personal project</h3>
+
+<p>I wanted to include more a bit more of Asian culture in the Lunar Party that I am hosting with a couple friends. 
+  Besides food, I thought that fortune telling has always been a really big thing in Asia, especially during new year.
+  Since the attendees are all close friends, I decided that since I am studying coding that I will take a on small passion project
+  that add a bit more to the party than just Asian foods and drinks.</p>
+
+  <p>I used the html/css/js files from an attempt at creating my own webiste prior to starting Hive. It just had the bare backbone of some CSS and html codes.
+    In two days, I relearned how to create elements and functions that would make the website semi-functional and still has the humor for the visitors. 
+    I also added buttons to return to the beginning, so they can check out different zodiac's forecast and flaws.</p>
