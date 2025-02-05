@@ -14,16 +14,20 @@ For this project, I recycled some html/css/js files that I had before starting H
 In two days, I relearned how to create elements and functions that would make the website easy to navigate and still has some humor for the users.
 - drop down menu to select birth year
 - music embedded with easy to access controller
+- clear navigation, allowing users to move through the website effortlessly
 
 ## Examples
 <h4>Drop down menu</h4>
-
+<img src="https://i.imgur.com/W3K2QAe.gif" width="300">
 <h4>Fail User interface</h4>
 <img src="https://i.imgur.com/G90RTQ2.gif" width="300">
 
 ## Learning:
-From this project
-I also learned that how to include a drag down menu for the birth year rather than then inputting the birth dates. In this way, people will be able to find their zodiac sign quicker. 
-I learned that convenience is a big thing in website design. I wanted to make the music autoplay but I learned that many of the modern broswer has disable that. I also added buttons to return to the beginning, so they can check out different zodiac's forecast and flaws.
+<p> From this project, I get to brush up my knowledge in front-end developing and it was really fun in creating this website thinking how my friends would had interact and create feature that suits them. 
+On the technology side, I learned how to create interactive buttons and a drop-down menu that saves the user's choice for later used. 
+  I also explored linking buttons and png to different pages, improving site navigation. 
+  Additionally I learned how to embedd music into the website and learned that many of the browsers have disabled auto play.
+These experience helped me strengthen my understanding of web interactivity and user experience.</p>
 
+## Check It Out here:
 link: https://quietmid.github.io/LunarNewYear-Fortune-Telling/home.html
