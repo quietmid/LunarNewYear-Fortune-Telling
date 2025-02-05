@@ -16,8 +16,10 @@ In two days, I relearned how to create elements and functions that would make th
 - music embedded with easy to access controller
 
 ## Examples
+<h4>Drop down menu</h4>
+
 <h4>Fail User interface</h4>
-<img src="https://imgur.com/G90RTQ2" width="300">
+<img src="https://i.imgur.com/G90RTQ2.gif" width="300">
 
 ## Learning:
 From this project
